@@ -1,0 +1,49 @@
+{
+  "name": "RNGraphQL",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "homepage": "https://github.com/daveporras/react-native-graphql-example",
+  "bugs": {
+    "url": "https://github.com/daveporras/react-native-graphql-example/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daveporras/react-native-graphql-example.git"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "expo": "^32.0.0",
+    "graphql": "^14.2.1",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-apollo": "^2.5.5",
+    "react-native": "0.59.5",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
